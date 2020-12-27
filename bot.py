@@ -52,6 +52,7 @@ def send_text(message):
         bot.send_photo(message.chat.id,
                        'https://images.unsplash.com/photo-1481015077760-903e8641be6d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGNocmlzdG1hcyUyMGNhbmRsZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60')
         bot.send_message(message.chat.id,
-                         'Правильно! Наступне слово CHRISTMAS STOCKING')
+                         'Правильно! Наступне слово CHRISTMAS STOCKING ')
 
 bot.polling()
+
